@@ -21,19 +21,22 @@ session_start();
 <div class="menu">
 
     <ul>
+    <h1 class="name-logo">Fullstreamly</h1>
     <li><a href="about.php">A propos</a></li>
     <li><a href="abonnement.php">abonnement</a></li>
     <li><a href="api/">Documentation pour développeurs</a></li>
     </ul>
 </div>
 
-<div class="welcome-text">Bienvenue sur le meilleur site que l'univers n'ai jamais connu
+<div class="welcome-text">
+    <li>Share your art and get your share.</li>
+    <li>Make quality content, not quantity.</li>
 </div>
 
 <div class="container">
    <div class="player-iframe">
-    <div style="position: relative; padding-top: 56.69291338582677%;"><iframe src="https://iframe.mediadelivery.net/embed/1252/ea83d074-0500-486f-a45a-2304e119902e?autoplay=false" loading="lazy" style="border: none; position: absolute; top: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
-   </div>
+    <div style="position: relative; padding-top: 56.69291338582677%;"><iframe src="https://iframe.mediadelivery.net/embed/1252/a976806b-e8c6-4895-bca1-17c05150d823?autoplay=true" loading="lazy" style="border: none; position: absolute; top: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
+</div>
    <div class="container-bg-present">
         <div class="icon">
             <i class="far fa-image-polaroid"></i>

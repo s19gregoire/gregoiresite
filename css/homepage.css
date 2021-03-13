@@ -1,0 +1,7 @@
+.imagedata {
+    display: flex;
+}
+.imagedata img {
+    width: 20%;
+    padding: 10px 12px;
+}
