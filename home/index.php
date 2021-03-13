@@ -32,7 +32,10 @@ include "../config/bdd.php";
             $view->execute();
             while($data = $view->fetch()) {
                 ?>
+                <div class="pict">
                 <a href="player.php?id=<?= $data['identifiant'] ?>"><img src='https://vz-0ca559bd-780.b-cdn.net/<?= $data['profile_image'] ?>/thumbnail.jpg'></a>
+                    <p class="showed">Test</p>
+                </div>
                 <?php
             }
             ?>

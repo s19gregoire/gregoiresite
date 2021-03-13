@@ -108,9 +108,12 @@ li a:hover::after {
     grid-template-columns: 33% 33% 33%;
 }
 .icon i {
-    width: 100%;
-    font-size: 250px;
+    width: 40%;
+    font-size: 100px;
     color: white;
+}
+.icon h2 {
+    display: inline-block;
 }
 .icon {
     padding: 15px 18px;
