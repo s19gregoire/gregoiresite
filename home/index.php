@@ -14,16 +14,10 @@ include "../config/bdd.php";
 <link rel="stylesheet" href="../css/homepage.css">
     <title>View video online</title>
 </head>
-<body>
-    <div class="menu">
-
-        <ul>
-        <h1 class="name-logo">Fullstreamly</h1>
-        <li><a href="about.php">A propos</a></li>
-        <li><a href="abonnement.php">abonnement</a></li>
-        <li><a href="api/">Documentation pour développeurs</a></li>
-        </ul>
-    </div>
+<body oncontextmenu="return false;">
+  <?php
+  include "../snips/navbar/navbar.php";
+  ?>
     <div class="container">
         <h1>Titre a la une</h1>
         <div class="imagedata">
@@ -36,6 +30,9 @@ include "../config/bdd.php";
                 <a href="player.php?id=<?= $data['identifiant'] ?>"><img src='https://vz-0ca559bd-780.b-cdn.net/<?= $data['profile_image'] ?>/thumbnail.jpg'></a>
                     <p class="showed">Test</p>
                 </div>
+                
+                    
+                
                 <?php
             }
             ?>

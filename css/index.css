@@ -1,11 +1,11 @@
 body {
-    background: #202020;
+    margin: 0;
+    background: #212121;
 }
 
 * {
     font-family: 'Merriweather Sans', sans-serif;
-    color: white;
-    padding: 0% 0%;
+    color: hsl(42, 100%, 82%);
 }
 
 .welcome-text {
@@ -18,85 +18,17 @@ body {
     list-style-type: none;
     overflow: auto;
     text-align: center;
-    padding: 1px 0px;
+    padding: 1vmin;
     font-weight: 10;
-    background: hsla(0, 0%, 90%, 50%);
 }
-
-.menu {
-    font-size: large;
-    background-color: #474747;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 15px;
-}
-
-ul {
-    position: relative;
-    display: flex;
-    padding: 0% 1%;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    list-style-type: none;
-    overflow: auto;
-}
-
-.name-logo {
-    font-size: larger;
-    margin-right: auto;
-    padding: 0px 20px;
-    /* align-self:flex-start; */
-    /* justify-content: flex-start; */
-    color: rgb(0, 217, 255);
-}
-
-li {
-    padding: 0% 1%;
-}   
-
-li a {
-    position: relative;
-    display: block;
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: 0.4s;
-}
-
-li a::after {
-    border-radius: 5px;
-    position: absolute;
-    content: "";
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    background: hsl(0, 0%, 62%);
-    transform: scaleY(0);
-    transform-origin: top;
-    transition: 1s;
-}
-
-li a:hover {
-    color: hsl(0, 0%, 65%);
-}
-
-li a:hover::after {
-    transform: scaleY(1);
-    background: hsl(0, 0%, 50%);
-    transform-origin: top;
-    transition: 0.2s;
-}
-
 
 .container {
-    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 0px 10vmax;
 }
 .player-iframe {
-    padding: 10px 12px;
+    border-radius: 15px;
+    padding: 1vmax;
 
 }
 .player-iframe iframe {
