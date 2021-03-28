@@ -1,34 +1,27 @@
-<?php
-?>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script type="text/JavaScript">
-
-$(function(){
-    // this will get the full URL at the address bar
-    var url = window.location.href; 
-
-    // passes on every "a" tag 
-    $("#menu a").each(function() {
-            // checks if its the same on the address bar
-        if(url == (this.href)) { 
-            $(this).closest("li").addClass("active");
-        }
-    });
-});
-</script>
-
-<link rel="stylesheet" href="/gregoiresite/snips/navbar/navbar.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          <link rel="icon" href="/asset/logo.svg">
+          <link rel="stylesheet" href="/css/index.css">
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gneve.eu shareyour video online</title>
+</head>
+<link rel="stylesheet" href="/snips/navbar/navbar.css">
 
 
 <div class="menu">
     <ul>
         <div class="name-logo">
-            <a href="/gregoiresite/">VODART</a>
+            <a href="/"><img src="/asset/logo.svg"></a>
         </div>
-        <li><a href="/gregoiresite/">Welcome</a></li>
-        <li><a href="/gregoiresite/home/">My Account</a></li>
-        <li><a href="/gregoiresite/about.php">A propos</a></li>
-        <li><a href="/gregoiresite/abonnement.php">abonnement</a></li>
-        <li><a href="/gregoiresite/api/">Documentation pour développeurs</a></li>
+        <li><a href="/">Welcome</a></li>
+        <li><a href="/home/">My Account</a></li>
+        <li><a href="/about.php">A propos</a></li>
+        <li><a href="/abonnement.php">abonnement</a></li>
+        <li><a href="/api/">Documentation pour développeurs</a></li>
     </ul>
 </div>

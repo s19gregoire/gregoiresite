@@ -12,7 +12,7 @@ session_start();
           <link rel="stylesheet" href="asset/fontawesome-pro-5.15.1-web/css/all.min.css">
           <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
           <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
-                
+               <?php include "gregoire/navbar/top.php"; ?>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gneve.eu shareyour video online</title>
 </head>
@@ -30,7 +30,7 @@ session_start();
    <div class="player-iframe">
     <div style="position: relative; padding-top: 56.69291338582677%;"><iframe src="https://iframe.mediadelivery.net/embed/1252/a976806b-e8c6-4895-bca1-17c05150d823?autoplay=true" loading="lazy" style="border: none; position: absolute; top: 0; height: 100%; width: 100%;" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;" allowfullscreen="true"></iframe></div>
 </div>
-    <button class="subscribe-button">SUBSCRIBE</button>
+    <button class="subscribe-button" style="border : none;">SUBSCRIBE</button>
    <div class="container-bg-present">
         <div class="icon">
             <i class="far fa-image-polaroid"></i>

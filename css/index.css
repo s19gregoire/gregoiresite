@@ -5,7 +5,7 @@ body {
 
 * {
     font-family: 'Merriweather Sans', sans-serif;
-    color: hsl(42, 100%, 82%);
+    color: hsl(42, 100%, 85%);
 }
 
 .welcome-text {
@@ -23,16 +23,15 @@ body {
 }
 
 .container {
-    border-radius: 15px;
     box-shadow: rgba(255, 255, 255, 0.25) 0px 0px 10vmax;
 }
 .player-iframe {
-    border-radius: 15px;
-    padding: 1vmax;
+    border-radius: 2px;
+    padding: 0.25vmax;
 
 }
 .player-iframe iframe {
-    border-radius: 15px;
+    border-radius: 0.5vmax;
     display: block;
 }
 .container-bg-present {
@@ -52,7 +51,7 @@ body {
     position: relative;
 }
 .data {
-    background-color: rgba(0, 0, 0, 0.1);
+    /* background-color: rgba(0, 0, 0, 0.1); */
     position: absolute;
     top: 50%;
     bottom: 50%;
